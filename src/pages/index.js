@@ -1,5 +1,14 @@
-import * as React from "react"
+import * as React from "react";
+
+import DarkModeToggle from "../components/DarkMode";
 
 export default function Home() {
-  return <div>Hello world!</div>
+  return (
+    <div>
+      <div>
+        <DarkModeToggle />
+        Mister Hello World
+      </div>
+    </div>
+  );
 }
